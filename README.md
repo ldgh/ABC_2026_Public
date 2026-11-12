@@ -1,6 +1,6 @@
 # ABC_2026
 
-[Lucas Faria](https://github.com/lcsfaria), [Camila Sinimbú Forte](https://github.com/camiliane), [Carolina Silva de Carvalho](https://github.com/carolinascarvalho), [Glen Garcia](https://github.com/glenjasper), [Luca Vasconcelos da Gama Garcia](https://github.com/lucagamam), [Ivan Gomes Cruz](https://github.com/IvanGomesCruz).
+[Lucas Faria](https://github.com/lcsfaria), [Camila Sinimbú Forte](https://github.com/camiliane), [Carolina Silva de Carvalho](https://github.com/carolinascarvalho), [Glen Garcia](https://github.com/glenjasper), [Luca Vasconcelos da Gama Garcia](https://github.com/lucagamam), [João Vitor Ferry](https://github.com/joaovitorferry-creator), [Ivan Gomes Cruz](https://github.com/IvanGomesCruz).
 
 EM CONSTRUÇÃO 🏗️🏗️🏗️🏗️🏗️🏗️🏗️🏗️
 
