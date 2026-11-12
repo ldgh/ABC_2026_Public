@@ -1,6 +1,6 @@
 # ABC_2026
 
-[Lucas Faria](https://github.com/lcsfaria), [Camila Sinimbú Forte](https://github.com/camiliane), [Carolina Silva de Carvalho](https://github.com/carolinascarvalho), [Glen Garcia](https://github.com/glenjasper), [Luca Vasconcelos da Gama Garcia](https://github.com/lucagamam)
+[Lucas Faria](https://github.com/lcsfaria), [Camila Sinimbú Forte](https://github.com/camiliane), [Carolina Silva de Carvalho](https://github.com/carolinascarvalho), [Glen Garcia](https://github.com/glenjasper), [Luca Vasconcelos da Gama Garcia](https://github.com/lucagamam), [Ivan Gomes Cruz](https://github.com/IvanGomesCruz).
 
 EM CONSTRUÇÃO 🏗️🏗️🏗️🏗️🏗️🏗️🏗️🏗️
 
@@ -9,14 +9,16 @@ EM CONSTRUÇÃO 🏗️🏗️🏗️🏗️🏗️🏗️🏗️🏗️
 ### Computação Bayesiana Aproximada (ABC)
 O ABC foi introduzido por Tavaré et al. (1997) e Pritchard et al. (1999) para resolver problemas de likelihood intratáveis na genética de populações. O método aborda o problema de encontrar uma distribuição posterior dos parâmetros em um modelo que explica um conjunto de dados complexo. 
 
-O princípio fundamental é: Dada uma amostra de parâmetros $θ$, um conjunto de dados $D'$ é simulado em função deles. Se o conjunto de  $D'$ é muito diferente do dado observado $D$, então os $θ$ responsáveis por $D'$ são descartados. Por outro lado, $D'$ é aceito dada uma tolerância de $ε\ge0$ caso $ρ(D,D') ≤ ε$, onde $ρ(D,D')$ é a distância que determina a diferença entre $D$ e $D'$. Por fim, após a seleção dos cenários que tiveram o menor $ρ(D,D')$, volta-se para os valores dos nossos parâmetros $θ$ que constituem nossas distribuições a posteriori (Figura 1).
+O princípio fundamental é: Dada uma amostra de parâmetros $θ$, um conjunto de dados $D'$ é simulado em função deles. Se o conjunto de  $D'$ é muito diferente do dado observado $D$, então os $θ$ responsáveis por $D'$ são descartados. Dada uma função de distância $p$ e uma tolerância ε, $D'$ é aceito caso $ρ(D,D') ≤ ε$. Por fim, após a seleção dos cenários que tiveram o menor $ρ(D,D')$, volta-se para os valores dos nossos parâmetros $θ$ que constituem nossas distribuições a posteriori (Figura 1).
 
 <img width="1744" height="675" alt="image" src="https://github.com/user-attachments/assets/9fc1486c-b952-4677-905a-99bd34b74f9f" />
 
 Figura 1. **Estimação de parâmetros através do ABC**. Fluxo da estimativa de parâmetros a partir de dados observados e simulados no ABC. 
 
 ### Inferência da Dinâmica da Miscigenação 
-EM CONSTRUÇÃO 🏗️🏗️🏗️🏗️🏗️🏗️🏗️🏗️
+Nossa análise é estruturada em quatro etapas: i) geração dos cenários demográficos candidatos; ii) simulação do modelo para cada cenário candidato; iii) construção das estatísticas sumárias dos dados simulados; e iv) construção da posteriori, dado o cálculo das distâncias entre as estatísticas sumárias simuladas e observadas e a retenção dos cenários mais próximos.
+
+<img width="617" height="675" alt="ABC" src="https://github.com/user-attachments/assets/6fe3cd67-76b1-4d10-8803-b94db53bbb86" />
 
 ---
 
@@ -324,8 +326,7 @@ outputs/
 <img width="1733" height="743" alt="image" src="https://github.com/user-attachments/assets/576e54f9-089b-4f28-86cb-77e40fa7743b" />
 
 
-EM CONSTRUÇÃO 🏗️🏗️🏗️🏗️🏗️🏗️🏗️🏗️
-
 <img width="1376" height="841" alt="image" src="https://github.com/user-attachments/assets/bbbf1f77-03d8-48d1-a9d4-0265a8476233" />
 
-Validacao
+####Validação
+EM CONSTRUÇÃO 🏗️🏗️🏗️🏗️🏗️🏗️🏗️🏗️
