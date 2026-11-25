@@ -2,8 +2,6 @@
 
 [Lucas Faria](https://github.com/lcsfaria), [Camila Sinimbú Forte](https://github.com/camiliane), [Carolina Silva de Carvalho](https://github.com/carolinascarvalho),[Luca Vasconcelos da Gama Garcia](https://github.com/lucagamam), [João Vitor Ferry](https://github.com/joaovitorferry-creator), [Ivan Gomes Cruz](https://github.com/IvanGomesCruz).
 
-EM CONSTRUÇÃO 🏗️🏗️🏗️🏗️🏗️🏗️🏗️🏗️
-
 ## Introdução 
 
 ### Computação Bayesiana Aproximada (ABC)
